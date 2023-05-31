@@ -1,0 +1,24 @@
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 6px 8px  grey;
+}
+nav > div >h1{
+    color: blue;
+    font-size: 2.8rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;  
+}
+a {
+    margin-right: 3rem;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid brown;
+}
